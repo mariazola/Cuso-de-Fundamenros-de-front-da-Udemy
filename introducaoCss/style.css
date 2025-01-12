@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(240, 240, 210);
+}
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+p{
+    text-indent: 50px;
+    font-size: 28px;
+    text-align: left;
+    color: #161613;
+    font-variant: small-caps;
+}
