@@ -1,0 +1,33 @@
+body{
+background-color: #fff;
+font-family: sans-serif;
+margin: 25px 75px ;
+font-size: x-large;
+
+}
+
+.nome{
+    background-color: rgb(169, 169, 243);
+    color: rgb(2, 2, 75);
+   text-align: center;
+   height: auto;
+  
+}
+
+.primeiro{
+    text-align: center; 
+    margin-bottom: 60px;
+}
+p{
+    margin-bottom: 50px;
+}
+
+h2{
+    background-color: #ccc;
+    color: rgb(2, 2, 75); 
+    border-bottom:4px solid rgb(2, 2, 75) ;
+}
+
+.azul{
+    color: blue;
+}
