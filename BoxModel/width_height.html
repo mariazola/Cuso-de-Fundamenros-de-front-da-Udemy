@@ -10,6 +10,7 @@ body{
 
 p{
     background-color:#ccc ;
+    margin-top: 0;
 }
 h1{
     background-color:#a07c7c ;
@@ -18,9 +19,21 @@ h1{
 
 h2{
     background-color: #37a951;
-    width: 50%;
-    height: 50px;
-    margin: 16px;
+    border-bottom: 6px solid green;
+}
+
+.destaque{
+
+}
+
+.borda{
+    border: 5px dashed rgb(15, 4, 4);
+    padding: 20px;
+}
+
+.outline{
+    outline: 5px dashed red;
+    padding: 20px;
 }
     </style>
 </head>
@@ -29,7 +42,13 @@ h2{
   
   <h2>Wdth e Height</h2>
   <p>Lorem ipsum dolor sit amet.</p>
+  <p class="destaque borda">Lorem ipsum dolor sit amet.</p>
   <p>Lorem ipsum dolor sit amet.</p>
-  <p>Lorem ipsum dolor sit amet.</p>
+
+  <h1>Borda</h1>
+  <p class="destaque borda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, a!</p>
+
+  <h1>Outline</h1>
+  <p class="destaque outline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
 </body>
 </html>
